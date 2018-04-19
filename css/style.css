@@ -192,6 +192,10 @@ section.anvsap ul li {
   text-align: justify; 
 }
 
+.mark {
+	text-align: center;
+}
+
 #map {
   height: 650px;
   width: 650px;
