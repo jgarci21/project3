@@ -23,11 +23,11 @@ function travel(location, spots) {
       animation:google.maps.Animation.DROP,
     map: map
   });
-  if(spots==locations[0]){
+  if(spots==place[0]){
   }
-  else if(spots==locations[1]){
+  else if(spots==place[1]){
   }
-  else if(spots==locations[2]){
+  else if(spots==place[2]){
   }
   else {
   }
