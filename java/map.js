@@ -13,3 +13,11 @@ function gMap() {
     animation:google.maps.Animation.DROP,
   map: map });
 }
+function travel(location, spots) {
+	map.panTo(location);
+	map.setZoom(10);
+	tag = new google.maps.Marker({
+		position: location,
+			animation:google.maps.Animation.DROP,
+		map: map
+	});
