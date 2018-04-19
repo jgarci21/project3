@@ -191,3 +191,23 @@ section.anvsap ul li {
 .anvsap2{
   text-align: justify; 
 }
+
+#map {
+  height: 650px;
+  width: 650px;
+  border: 3px solid black;
+  margin-top: 15px;
+  position: relative;
+  margin-right: auto;
+  margin-left: auto;;	
+}
+
+button {
+  text-align: center;
+  text-decoration: none;
+  width: 180px;
+  font-size: 18px;
+  color: rgb(15, 280, 27);
+  background-color: rgb(112, 205, 255);
+  border: 3px solid black;
+}
