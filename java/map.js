@@ -14,10 +14,19 @@ function gMap() {
   map: map });
 }
 function travel(location, spots) {
-	map.panTo(location);
-	map.setZoom(10);
-	tag = new google.maps.Marker({
-		position: location,
-			animation:google.maps.Animation.DROP,
-		map: map
-	});
+  map.panTo(location);
+  map.setZoom(10);
+  tag = new google.maps.Marker({
+    position: location,
+      animation:google.maps.Animation.DROP,
+    map: map
+  });
+  if(spots==locations[0]){
+  }
+  else if(spots==locations[1]){
+  }
+  else if(spots==locations[2]){
+  }
+  else {
+  }
+}	
