@@ -1,12 +1,12 @@
 var map;
 var tag;
-var place;
+var places;
 var chicago={lat: 41.8338192, lng: -87.712234}
 var austin={lat: 30.3074624, lng: -98.0336018}
 var dallas={lat: 32.8203525, lng: -97.0117414}
 var place=["chicago","austin","dallas"];
 function gMap() {
-  place={lat: 41.8338192, lng: -87.712234};
+  places={lat: 41.8338192, lng: -87.712234};
   map = new google.maps.Map(document.getElementById('map'), {
     zoom:10,
   center: chicago});
